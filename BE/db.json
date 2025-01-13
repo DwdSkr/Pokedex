@@ -1,0 +1,271 @@
+{
+	"users": [
+		{
+			"id": "1",
+			"username": "Example",
+			"password": "Example1*",
+			"email": "ex@example.com"
+		}
+	],
+	"favourites": [
+		{
+			"id": "4",
+			"name": "charmander"
+		},
+		{
+			"id": "6",
+			"name": "charizard"
+		},
+		{
+			"id": "38",
+			"name": "ninetales"
+		},
+		{
+			"id": "94",
+			"name": "gengar"
+		},
+		{
+			"id": "133",
+			"name": "eevee"
+		},
+		{
+			"id": "134",
+			"name": "vaporeon"
+		},
+		{
+			"id": "125",
+			"name": "electabuzz"
+		},
+		{
+			"id": "123",
+			"name": "scyther"
+		},
+		{
+			"id": "130",
+			"name": "gyarados"
+		},
+		{
+			"id": "149",
+			"name": "dragonite"
+		}
+	],
+	"battlefield": [],
+	"ranking": [
+		{
+			"id": "3",
+			"name": "venusaur",
+			"stats": {
+				"win": "4",
+				"lose": "0"
+			}
+		},
+		{
+			"id": "9",
+			"name": "blastoise",
+			"stats": {
+				"win": "0",
+				"lose": "1"
+			}
+		},
+		{
+			"id": "4",
+			"name": "charmander",
+			"stats": {
+				"win": "2",
+				"lose": "1"
+			}
+		},
+		{
+			"id": "6",
+			"name": "charizard",
+			"stats": {
+				"win": "0",
+				"lose": "1"
+			}
+		},
+		{
+			"id": "1",
+			"name": "bulbasaur",
+			"stats": {
+				"win": "1",
+				"lose": "6"
+			}
+		},
+		{
+			"id": "2",
+			"name": "ivysaur",
+			"stats": {
+				"win": "2",
+				"lose": "0"
+			}
+		},
+		{
+			"id": "7",
+			"name": "squirtle",
+			"stats": {
+				"win": "1",
+				"lose": "1"
+			}
+		},
+		{
+			"id": "13",
+			"name": "weedle",
+			"stats": {
+				"win": "0",
+				"lose": "1"
+			}
+		},
+		{
+			"id": "12",
+			"name": "butterfree",
+			"stats": {
+				"win": "1",
+				"lose": "0"
+			}
+		},
+		{
+			"id": "15",
+			"name": "beedrill",
+			"stats": {
+				"win": "1",
+				"lose": "0"
+			}
+		},
+		{
+			"id": "10",
+			"name": "caterpie",
+			"stats": {
+				"win": "0",
+				"lose": "1"
+			}
+		}
+	],
+	"pokemon-list": [
+		{
+			"id": "3",
+			"name": "venusaur",
+			"height": "20",
+			"base_experience": "303",
+			"weight": "1000",
+			"ability": "overgrow",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+		},
+		{
+			"id": "9",
+			"name": "blastoise",
+			"height": "16",
+			"base_experience": "265",
+			"weight": "855",
+			"ability": "torrent",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+		},
+		{
+			"id": "4",
+			"name": "charmander",
+			"height": "6",
+			"base_experience": "82",
+			"weight": "85",
+			"ability": "blaze",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+		},
+		{
+			"id": "6",
+			"name": "charizard",
+			"height": "17",
+			"base_experience": "267",
+			"weight": "905",
+			"ability": "blaze",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+		},
+		{
+			"id": "1",
+			"name": "bulbasaur",
+			"height": "7",
+			"base_experience": "100",
+			"weight": "69",
+			"ability": "overgrow",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+		},
+		{
+			"id": "2",
+			"name": "ivysaur",
+			"height": "10",
+			"base_experience": "162",
+			"weight": "130",
+			"ability": "overgrow",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+		},
+		{
+			"id": "7",
+			"name": "squirtle",
+			"height": "5",
+			"base_experience": "73",
+			"weight": "90",
+			"ability": "torrent",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+		},
+		{
+			"id": "12",
+			"name": "butterfree",
+			"height": "11",
+			"base_experience": "210",
+			"weight": "320",
+			"ability": "compound-eyes",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+		},
+		{
+			"id": "13",
+			"name": "weedle",
+			"height": "3",
+			"base_experience": "39",
+			"weight": "32",
+			"ability": "shield-dust",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+		},
+		{
+			"id": "151",
+			"name": "mew",
+			"weight": "40",
+			"height": "4",
+			"base_experience": "300",
+			"ability": "synchronize",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
+		},
+		{
+			"id": "153",
+			"name": "bayleef",
+			"weight": "158",
+			"height": "12",
+			"base_experience": "142",
+			"ability": "overgrow",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png"
+		},
+		{
+			"id": "15",
+			"name": "beedrill",
+			"height": "10",
+			"base_experience": "188",
+			"weight": "295",
+			"ability": "swarm",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+		},
+		{
+			"id": "157",
+			"name": "typhlosion",
+			"weight": "795",
+			"height": "17",
+			"base_experience": "240",
+			"ability": "blaze",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png"
+		},
+		{
+			"id": "10",
+			"name": "caterpie",
+			"height": "3",
+			"base_experience": "39",
+			"weight": "29",
+			"ability": "shield-dust",
+			"sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+		}
+	]
+}
