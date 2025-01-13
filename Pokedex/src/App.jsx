@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './components/shared/Nav';
+<<<<<<< Updated upstream
 import { Route, Routes } from 'react-router-dom';
 import { AppProvider } from './context/AppProvider';
 import ProtectedRoutes from './utils/ProtectedRoutes';
@@ -27,6 +28,18 @@ function App() {
 				</Route>
 			</Routes>
 		</AppProvider>
+=======
+import Home from './components/subpages/home';
+
+function App() {
+	return (
+		<>
+			
+			<Nav></Nav>
+			<hr />
+			<Home></Home>
+		</>
+>>>>>>> Stashed changes
 	);
 }
 

@@ -10,19 +10,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< Updated upstream
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@hookform/resolvers": "^3.9.1",
     "@mui/material": "^6.3.1",
     "@mui/styled-engine-sc": "^6.1.10",
     "@mui/x-data-grid": "^7.23.5",
+=======
+    "@hookform/resolvers": "^3.9.1",
+    "@mui/material": "^6.1.10",
+    "@mui/styled-engine-sc": "^6.1.10",
+>>>>>>> Stashed changes
     "notistack": "^3.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.54.0",
+<<<<<<< Updated upstream
     "react-router-dom": "^7.0.2",
     "styled-components": "^6.1.13",
     "zod": "^3.24.1"
+=======
+    "styled-components": "^6.1.13"
+>>>>>>> Stashed changes
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

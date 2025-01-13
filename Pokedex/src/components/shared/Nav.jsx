@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import {
 	AppBar,
 	Box,
@@ -14,6 +15,18 @@ import { ThemeContext } from '../../context/ThemeContext';
 import { icon, logo } from '../../icons/check';
 import Divider from '@mui/material/Divider';
 
+=======
+import { AppBar, Toolbar } from '@mui/material';
+import ButtonComponent from './ButtonComponent';
+import styled from 'styled-components';
+import logo from '../../icons/logo.svg';
+
+const ButtonContainer = styled.div`
+	width: 60%;
+	display: flex;
+	justify-content: space-evenly;
+`;
+>>>>>>> Stashed changes
 const LogoContainer = styled.div`
 	width: 300px;
 	height: auto;
@@ -21,6 +34,7 @@ const LogoContainer = styled.div`
 const Logo = styled.img`
 	width: 100%;
 `;
+<<<<<<< Updated upstream
 
 const StyledHome = styled.button`
 	background-image: url(${logo});
@@ -33,6 +47,9 @@ const StyledHome = styled.button`
 const Nav = () => {
 	const { isLoggedIn, user, homeRoute, pathRoutes } = useContext(LoginContext);
 	const { toggleTheme } = useContext(ThemeContext);
+=======
+const Nav = () => {
+>>>>>>> Stashed changes
 	return (
 		<AppBar
 			position='static'
@@ -43,6 +60,7 @@ const Nav = () => {
 				background: 'none',
 			}}
 		>
+<<<<<<< Updated upstream
 			<Box
 				sx={{
 					display: 'flex',
@@ -99,6 +117,20 @@ const Nav = () => {
 				</Box>
 			</Toolbar>
 			<Divider sx={{ margin: '20px 0' }} />
+=======
+			<Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
+				<LogoContainer>
+					<Logo src={logo} />
+				</LogoContainer>
+				<ButtonContainer>
+					<ButtonComponent text={'ULUBIONE'} />
+					<ButtonComponent text={'ARENA'} />
+					<ButtonComponent text={'RANKING'} />
+					<ButtonComponent text={'EDYCJA'} />
+					<ButtonComponent text={'WYLOGUJ'} />
+				</ButtonContainer>
+			</Toolbar>
+>>>>>>> Stashed changes
 		</AppBar>
 	);
 };
